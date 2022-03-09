@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter, Routes, Route, Link,
+  BrowserRouter, Routes, Route,
 } from 'react-router-dom';
 import Greeting from './components/Greeting';
 
