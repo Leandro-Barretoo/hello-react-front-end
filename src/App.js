@@ -3,6 +3,10 @@ import {
   BrowserRouter, Routes, Route,
 } from 'react-router-dom';
 import Greeting from './components/Greeting';
+import store from './redux/configureStore';
+import { getMessage } from './redux/greetings/greetings';
+
+store.dispatch(getMessage());
 
 const App = () => (
   <BrowserRouter>

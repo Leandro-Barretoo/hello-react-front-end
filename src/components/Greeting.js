@@ -1,15 +1,14 @@
+import React from 'react';
 import { useSelector } from 'react-redux';
 
 const Greeting = () => {
-  const greetingsList = useSelector((state) => state.greetingReducer);
-
-  const myGreeting = greetingsList.map((greeting) => (
-    <h1 key={greeting.id}>{greeting.message}</h1>
-  ));
-
+  const { message } = useSelector((state) => state.greeting);
+  console.log(message);
   return (
     <>
-      { myGreeting }
+      <h1>
+        { message }
+      </h1>
     </>
   );
 };

@@ -1,16 +1,25 @@
-const ADD_GREETING = 'helloReactFrontEnd/greetings/ADD_GREETING';
+import getGreeting from '../api';
 
-const initialState = [];
+const ADD_GREETING = 'helloReactFrontEnd/greetings/ADD_GREETING';
 
 export const addGreetingData = (payload) => ({
   type: ADD_GREETING,
   payload,
 });
 
+export const getMessage = () => async (dispatch) => {
+  const data = await getGreeting();
+  dispatch(addGreetingData(data));
+};
+
+const initialState = {
+  greeting: null,
+};
+
 const greetingReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_GREETING:
-      return [...state, action.payload];
+      return action.payload;
     default:
       return state;
   }
