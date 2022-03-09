@@ -7,10 +7,10 @@ const rootReducer = combineReducers({
 });
 
 const getGreetingData = () => (dispatch) => {
-  fetch('https://vast-eyrie-02868.herokuapp.com/')
+  fetch('https://vast-eyrie-02868.herokuapp.com/.')
     .then((response) => response.json())
-    .then((data) => console.log(data))
-    .then((data) => data.greetings.forEach((greeting) => {
+    .then((json) => console.log(json))
+    .then((json) => json.greetings.forEach((greeting) => {
       dispatch(addGreetingData(greeting));
     }));
 };
