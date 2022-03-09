@@ -4,8 +4,7 @@ A react rails application that uses a rails Api.
 
 ## Preview
 
-
-
+![front-end](https://user-images.githubusercontent.com/72808808/157535497-5d8d920c-9bfc-47a1-b123-e72e68ce27d3.png)
 
 ## Project Decription
 
