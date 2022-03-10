@@ -1,62 +1,51 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Hello Rails Front End
 
-# Project Name
+A react rails application that uses a rails Api.
 
-> Description the project.
+## Preview
 
+![front-end](https://user-images.githubusercontent.com/72808808/157535497-5d8d920c-9bfc-47a1-b123-e72e68ce27d3.png)
 
-## Built With
+## Project Decription
 
-- Major languages
-- Frameworks
-- Technologies used
+A different greeting is displayed everytime.
 
-## Live Demo (if available)
+## Build With
 
-[Live Demo Link](https://livedemo.com)
-
+- `React`
+- `Redux`
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Instructions
 
-### Setup
+```sh
+git clone git@github.com:Leandro-Barretoo/hello-react-front-end.git
+cd hello-react-front-end
+npm start
+```
 
 ### Install
 
-### Usage
+- Set up liveserver as an extension in your VS Code.
+- If you dont have the live server extension, or are using another software just view directly in your browser.
 
-### Run tests
+- `npm install`
 
-### Deployment
+## 🤍 Author:
 
+👤 **Leandro Barreto**
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Github:[@Leandro-Barretoo](https://github.com/Leandro-Barretoo)
+- Linkedin:[Leandro Barreto](https://www.linkedin.com/in/leandroobarreto/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Leandro-Barretoo/hello-react-front-end/issues)
 
 ## Show your support
 
@@ -64,10 +53,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
-## 📝 License
+## License
 
-This project is [MIT](./MIT.md) licensed.
+[MIT](./LICENSE)
